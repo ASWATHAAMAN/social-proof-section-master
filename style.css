@@ -1,0 +1,173 @@
+body{
+  font-family: 'League Spartan', sans-serif;
+}
+:root{
+  --clr-Very-Dark-Magenta: hsl(300, 43%, 22%);
+--clr-Soft-Pink: hsl(333, 80%, 67%);
+--clr-Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--clr-Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--clr-White: hsl(0, 0%, 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.container{
+  width: 100%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
+.card-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+.content-one{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.heading{
+  width: 15rem;
+  color: var(--clr-Very-Dark-Magenta);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.paragraph{
+  width: 20rem;
+  color: var(--clr-Dark-Grayish-Magenta);
+  line-height: 1.2rem;
+  font-size: 13px;
+}
+.star-1{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: var(--clr-Light-Grayish-Magenta);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  margin-right: 12rem;
+  padding-right: 1rem;
+}
+.star-2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: var(--clr-Light-Grayish-Magenta);
+  margin-bottom: 10px;
+  margin-left: 2rem;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  padding-right: 2rem;
+  margin-right: 10rem;
+}
+.star-3{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: var(--clr-Light-Grayish-Magenta);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  margin-left: 4rem;
+  padding-right: 1.2rem;
+  margin-right: 8rem;
+}
+.stars{
+  width: 0.9rem;
+}
+.star-value{
+  font-size: 14px;
+  color: var(--clr-Very-Dark-Magenta);
+  font-weight: 700;
+  padding-left: 20px;
+}
+.card-two{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin: 3rem auto;
+  gap: 20px;
+  padding-right: 4.5rem;
+}
+.box-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-Very-Dark-Magenta);
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+}
+.box-one-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.human{
+  width: 2rem;
+  border: 0px solid black;
+  border-radius: 50%;
+}
+.box-para{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 2px;
+}
+.box-one-head-title{
+  color: var(--clr-White);
+  font-size: 14px;
+}
+.box-one-head-para{
+  font-size: 13px;
+  color: var(--clr-Soft-Pink);
+}
+.box-two-body-para{
+  font-size: 13px;
+  width: 14rem;
+  color: var(--clr-White);
+  line-height: 18px;
+}
+.box-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-Very-Dark-Magenta);
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 1.3rem;
+}
+.box-three{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-Very-Dark-Magenta);
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 2.8rem;
+}
